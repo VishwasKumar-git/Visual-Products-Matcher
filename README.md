@@ -1,4 +1,4 @@
-# Image Search Engine
+# Visual Products Matcher
 
 This project is an image search engine that allows users to upload an image and find similar images from a preloaded database. It uses the ResNet50 model for feature extraction and cosine similarity for finding similar images.
 
