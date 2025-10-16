@@ -1,4 +1,4 @@
-# Visual Products Matcher
+# Visual Product Matcher
 
 This project is an image search engine that allows users to upload an image and find similar images from a preloaded database. It uses the ResNet50 model for feature extraction and cosine similarity for finding similar images.
 
@@ -9,6 +9,9 @@ This project is an image search engine that allows users to upload an image and 
 - **Similarity Search**: Finds similar images from the database using cosine similarity.
 - **Adjustable Parameters**: Users can adjust the similarity threshold and the number of similar images to display.
 - **Caching**: Utilizes Streamlit's caching for improved performance.
+
+# Live Demo
+https://github.com/user-attachments/assets/13abbcf1-f507-4b70-add2-7ded68e8285b
 
 ## Prerequisites
 
@@ -95,21 +98,3 @@ This project is an image search engine that allows users to upload an image and 
 3. These features are compared to the pre-extracted features of images in the database using cosine similarity.
 4. The app displays the most similar images based on the user-defined threshold and number of results.
 
-## Troubleshooting
-
-- If you encounter memory issues, try reducing the number of images in your database or upgrading your hardware.
-- Ensure your uploaded images are in JPG format and are not corrupted.
-- If the app is slow, it might be due to the initial loading of the database. Subsequent runs should be faster due to caching.
-
-## Contributing
-
-Contributions to this project are welcome. Please fork the repository and submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
-## Acknowledgements
-
-- The ResNet50 model is provided by TensorFlow and was originally developed by Microsoft Research.
-- Thanks to the Streamlit team for their excellent framework for building data applications.
