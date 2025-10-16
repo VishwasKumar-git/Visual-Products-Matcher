@@ -1,0 +1,7 @@
+streamlit==1.37.0
+tensorflow==2.15.0
+pillow==10.2.0
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
+certifi
