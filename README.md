@@ -5,6 +5,7 @@ This project is an image search engine that allows users to upload an image and 
 ## Features
 
 - **Image Upload**: Users can upload an image in JPG format.
+- **Url Uplaod**:   Users can upload a url of image.
 - **Feature Extraction**: Extracts features from the uploaded image using a pre-trained ResNet50 model.
 - **Similarity Search**: Finds similar images from the database using cosine similarity.
 - **Adjustable Parameters**: Users can adjust the similarity threshold and the number of similar images to display.
@@ -15,7 +16,7 @@ https://github.com/user-attachments/assets/e2172840-b66b-4e41-bfb1-de226539e20a
 
 ## Prerequisites
 
-- Python 3.10
+- Python 3.13
 - pip (Python package installer)
 
 ## Installation
