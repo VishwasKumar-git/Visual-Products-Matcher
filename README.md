@@ -82,7 +82,6 @@ https://github.com/user-attachments/assets/e2172840-b66b-4e41-bfb1-de226539e20a
 - `requirements.txt`: Lists the dependencies required for the project.
 - `db/`: Directory containing the image database.
 - `README.md`: This file, containing project documentation.
-- `LICENSE`: The license file for the project.
 
 ## Dependencies
 
