@@ -1,6 +1,6 @@
 # Visual Products Matcher
 
-This project is an image search engine that allows users to upload an image and find similar images from a preloaded database. It uses the ResNet50 model for feature extraction and cosine similarity for finding similar images.
+This project is a Visual Product Matcher that allows users to upload a product image and find similar images from a preloaded database. It uses the ResNet50 model for feature extraction and cosine similarity for finding similar product images.
 
 ## Features
 
@@ -23,7 +23,7 @@ https://github.com/user-attachments/assets/e2172840-b66b-4e41-bfb1-de226539e20a
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/nasirovsh/ecommerce-visual-search.git
+    git clone https://github.com/VishwasKumar-git/Visual-Products-Matcher
     cd ecommerce-visual-search
     ```
 
@@ -73,6 +73,7 @@ https://github.com/user-attachments/assets/e2172840-b66b-4e41-bfb1-de226539e20a
 
 3. **Use the app**:
    - Upload an image: Use the file uploader to select an image in JPG format.
+   - Upload a url: Use product url through the internet and put the section and see the output.
    - Adjust parameters: Use the sliders to set the similarity threshold and the number of similar images to display.
    - Find similar images: Click the "Find Similar Images" button to search for similar images in the database.
 
@@ -94,7 +95,7 @@ https://github.com/user-attachments/assets/e2172840-b66b-4e41-bfb1-de226539e20a
 ## How It Works
 
 1. The app loads a pre-trained ResNet50 model on startup.
-2. When a user uploads an image, the app extracts features using the ResNet50 model.
+2. When a user uploads an image or url, the app extracts features using the ResNet50 model.
 3. These features are compared to the pre-extracted features of images in the database using cosine similarity.
 4. The app displays the most similar images based on the user-defined threshold and number of results.
 
