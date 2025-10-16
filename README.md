@@ -1,4 +1,4 @@
-# Visual Product Matcher
+# Visual Products Matcher
 
 This project is an image search engine that allows users to upload an image and find similar images from a preloaded database. It uses the ResNet50 model for feature extraction and cosine similarity for finding similar images.
 
@@ -11,7 +11,7 @@ This project is an image search engine that allows users to upload an image and 
 - **Caching**: Utilizes Streamlit's caching for improved performance.
 
 # Live Demo
-https://github.com/user-attachments/assets/13abbcf1-f507-4b70-add2-7ded68e8285b
+https://github.com/user-attachments/assets/e2172840-b66b-4e41-bfb1-de226539e20a
 
 ## Prerequisites
 
